@@ -20,12 +20,14 @@ const data = {
   github: chalk.cyan("https://github.com/DanielObara"),
   linkedin: chalk.cyan("https://www.linkedin.com/in/danielobara/"),
   web: chalk.cyan("https://danielobara.wordpress.com/"),
-  npx: chalk.white("npx danielobara"),
-  labelWork: chalk.white.bold("      Work:"),
-  labelGitHub: chalk.white.bold("    GitHub:"),
-  labelLinkedIn: chalk.white.bold("  LinkedIn:"),
-  labelWeb: chalk.white.bold("       Web:"),
-  labelCard: chalk.white.bold("      Card:")
+  npx: chalk.white("npx danielobara-dev"),
+  
+  labelOpenSource: chalk.rgb(128, 255, 128).bold('Open Source:'),
+  labelWork: chalk.rgb(255, 0, 0).bold(' Work:'),
+  labelGitHub: chalk.rgb(253, 245, 5).bold(' GitHub:'),
+  labelLinkedIn: chalk.rgb(0, 255, 255).bold(' LinkedIn:'),
+  labelWeb: chalk.rgb(255, 136, 77).bold(' Web:'),
+  labelCard: chalk.rgb(240, 13, 240).bold(' Card:'),
 };
 
 // Aqui será a saída do nosso Cartão Pessoal em NPX:

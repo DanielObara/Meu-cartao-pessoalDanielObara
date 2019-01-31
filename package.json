@@ -1,45 +1,30 @@
 {
-  "name": "dev-danielobara",
-  "version": "1.0.1",
-  "description": "Pacote que simula um Cartão Pessoal do Daniel Obara (@DanielObara). Esse projeto foi baseado pelo repositório da Glaucia Lemos (@glaucia_lemos86)",
-  "main": "./bin/card.js",
+  "name": "danielobara-dev",
+  "version": "3.0.0",
+  "description": "",
+  "main": "index.js",
   "bin": {
-    "dev-danielobara": "card.js"
+    "danielobara-dev": "./bin/card.js"
   },
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DanielObara/Meu-cartao-pessoalDanielObara.git"
+    "url": ""
   },
-  "keywords": [
-    "cartao",
-    "pessoal",
-    "card",
-    "business",
-    "card",
-    "daniel",
-    "obara",
-    "npm",
-    "card",
-    "npm",
-    "cartao",
-    "npx",
-    "card"
-  ],
-  "author": "Tierney Cyren, Glaucia Lemos,  Daniel Obara <daniel.tsutomu@hotmail.com> (danielobara.wordpress.com/)",
-  "license": "MIT",
+  "author": "Tierney Cyren, Glaucia Lemos <glaucia_lemos86@hotmail.com> (code4coders.wordpress.com/)",
   "bugs": {
-    "url": "https://github.com/DanielObara/Meu-cartao-pessoalDanielObara/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/DanielObara/Meu-cartao-pessoalDanielObara#readme",
-  "devDependencies": {
-    "standard": "^12.0.1"
-  },
+  "homepage": "",
+  "license": "MIT",
   "dependencies": {
     "boxen": "^2.1.0",
-    "chalk": "^2.4.2",
+    "chalk": "^2.4.1",
     "commander": "^2.19.0"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
   }
 }
