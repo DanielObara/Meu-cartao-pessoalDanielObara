@@ -19,15 +19,17 @@ const data = {
   work: chalk.white("Reactjs Developer"),
   github: chalk.cyan("https://github.com/DanielObara"),
   linkedin: chalk.cyan("https://www.linkedin.com/in/danielobara/"),
+  facebook: chalk.cyan("https://www.facebook.com/daniel.tsutomu"),
   web: chalk.cyan("https://danielobara.wordpress.com/"),
-  npx: chalk.white("npx danielobara-dev"),
-  
-  labelOpenSource: chalk.rgb(128, 255, 128).bold('Open Source:'),
-  labelWork: chalk.rgb(255, 0, 0).bold(' Work:'),
-  labelGitHub: chalk.rgb(253, 245, 5).bold(' GitHub:'),
-  labelLinkedIn: chalk.rgb(0, 255, 255).bold(' LinkedIn:'),
-  labelWeb: chalk.rgb(255, 136, 77).bold(' Web:'),
-  labelCard: chalk.rgb(240, 13, 240).bold(' Card:'),
+  npx: chalk.white("npx daniel-obara"),
+
+  labelOpenSource: chalk.rgb(128, 255, 128).bold("Open Source:"),
+  labelWork: chalk.rgb(255, 0, 0).bold(" Work:"),
+  labelGitHub: chalk.rgb(253, 245, 5).bold(" GitHub:"),
+  labelLinkedIn: chalk.rgb(0, 255, 255).bold(" LinkedIn:"),
+  labelFacebook: chalk.rgb(66, 103, 177).bold(" Facebook:"),
+  labelWeb: chalk.rgb(255, 136, 77).bold(" Web:"),
+  labelCard: chalk.rgb(240, 13, 240).bold(" Card:")
 };
 
 // Aqui será a saída do nosso Cartão Pessoal em NPX:
@@ -36,6 +38,7 @@ const heading = `${data.name} ${data.handle}`;
 const working = `${data.labelWork}  ${data.work}`;
 const githubing = `${data.labelGitHub}  ${data.github}`;
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
+const facebooking = `${data.labelFacebook}  ${data.facebook}`;
 const webing = `${data.labelWeb}  ${data.web}`;
 const carding = `${data.labelCard}  ${data.npx}`;
 
@@ -50,6 +53,8 @@ const output =
   githubing +
   newline +
   linkedining +
+  newline +
+  facebooking +
   newline +
   webing +
   newline +
