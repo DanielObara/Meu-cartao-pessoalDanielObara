@@ -2,7 +2,7 @@
 # Personal card in NPX - Daniel Obara :floppy_disk:
 
 <p align="center">
- <img src="https://i.imgsafe.org/33/33d0d436c3.png"/>
+ <img src="https://i.imgsafe.org/42/420682df78.png"/>
 </p>
 
 This project was developed with the purpose to create a personal card in npm. 
