@@ -11,7 +11,7 @@ Its just follow the @glaucia86 project and she based on Tierney Cyren repository
 To install my package use:
 
 ```
-> npm install danielobara-dev
+> npm install daniel-obara
 
 ```
 
