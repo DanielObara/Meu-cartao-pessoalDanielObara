@@ -5,7 +5,7 @@
   <img alt="MyPersonalCard" title="MyPersonalCard" src=".github/logo.png" width="400px" />
 </h1>
 <h3 align="center">
-  Meu cartão pessoal via npx daniel-obara
+  My personal card by npx daniel-obara
 </h3>
 <p align="center">
   <a>
